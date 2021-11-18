@@ -1,0 +1,104 @@
+body {
+  font-family: sans-serif;
+  background-image: url(https://wallpaperaccess.com/full/475252.jpg);
+}
+
+.hidden {
+  display: none;
+  position: absolute;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 6);
+  pointer-events: none;
+}
+
+.detail {
+  border: 2px solid black;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  padding: 8px;
+
+  overflow: auto;
+
+  position: absolute;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 6);
+  pointer-events: none;
+
+  box-shadow: 5px 5px 5px 5px #777777;
+  -moz-box-shadow: 5px 5px 5px 5px #777777;
+  -webkit-box-shadow: 5px 5px 5px 5px #777777;
+
+  margin-bottom: 10px;
+  background-color: whitesmoke;
+}
+
+#pagetitle {
+  text-align: center;
+  background-color: #87a27c;
+  padding: 20px 10px;
+  border: 2px solid black;
+}
+
+svg {
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  padding: 8px;
+}
+
+#bars {
+  display: flex;
+  justify-content: center;
+
+  padding: 10px;
+}
+
+#scrolling {
+  text-align: center;
+  background-color: #87a27c;
+  font-size: 10px;
+  color: white;
+  background-color: black;
+}
+
+#scatter {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+#intro {
+  margin: auto;
+  width: 75%;
+  padding: 10px;
+  text-align: center;
+  background-color: #87a27c;
+  border: 2px solid black;
+}
+
+#firstscatter {
+  margin: auto;
+  width: 75%;
+  padding: 10px;
+  text-align: center;
+  background-color: #87a27c;
+  border: 2px solid black;
+}
+
+button {
+  transition-duration: 0.4s;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  color: black;
+}
+
+button:hover {
+  background-color: burlywood; /* Green */
+  color: white;
+}

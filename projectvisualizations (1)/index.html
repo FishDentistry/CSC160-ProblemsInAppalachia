@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>D3 Template</title>
+    <meta charset="UTF-8" />
+    <link href="css/styles.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <h1 id="pagetitle">
+      Appalachia:A Hillbilly Elegy
+      <div id="scrolling">
+        <marquee behavior="scroll" direction="left" scrollamount="2"
+          >The sun shines bright in the old Kentucky home, Tis summer, the
+          people are gay; The corn-top's ripe and the meadow's in the bloom
+          While the birds make music all the day. The young folks roll on the
+          little cabin floor All merry, all happy and bright; By 'n by hard
+          times comes a knocking at the door Then my old Kentucky home,
+          Good-night!
+        </marquee>
+      </div>
+    </h1>
+
+    <div id="intro">
+      <p>
+        Appalachia is historically troubled in many socioeconomic areas. This
+        remains true today. Pictured below are statistics on college completion,
+        unemployment, and poverty rates in Appalachia by state and as a whole.
+      </p>
+      <button type="button" id="button2" class="button hidden">
+        Go Back
+      </button>
+    </div>
+    <div id="bars">
+      <svg id="graph1" width="400px" height="200px"></svg>
+      <svg id="graph2" width="400px" height="200px"></svg>
+      <svg id="graph3" width="400px" height="200px"></svg>
+      <svg id="graph7" width="400px" height="200px" class="graph hidden"></svg>
+      <svg id="graph8" width="400px" height="200px" class="graph hidden"></svg>
+      <svg id="graph9" width="400px" height="200px" class="graph hidden"></svg>
+      <svg id="graph10" width="400px" height="200px" class="graph hidden"></svg>
+    </div>
+    <div id="firstscatter">
+      <p>
+        Pictured below, there even seems to be a correlation between the amount
+        of a state that is Appalachia and the worse off it is. What might be the
+        underlying cause for this?
+      </p>
+      <button type="button" id="button">The Hypothesis</button>
+    </div>
+    <div id="scatter">
+      <svg id="graph4" width="450px" height="200px"></svg>
+      <svg id="graph5" width="450px" height="200px"></svg>
+      <svg id="graph6" width="450px" height="200px"></svg>
+    </div>
+    <!-- 
+      Uncomment for github
+      <script src="https://d3js.org/d3.v6.min.js"></script>
+    -->
+    <script type="module" src="js/lines.js"></script>
+    <div id="tooltip1" class="hidden">
+      <span class="amount"></span>
+      <span class="area"></span>
+    </div>
+  </body>
+</html>
